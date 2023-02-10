@@ -18,3 +18,6 @@ if (inputNum != null)
     Console.Write("Квадрат вашего числа - ");
     Console.WriteLine(+outNum);
 }
+
+// Весь код в одну строчку:
+Console.WriteLine((int)Math.Pow(int.Parse(inputNum), 2));
