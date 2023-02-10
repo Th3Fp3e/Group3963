@@ -20,4 +20,4 @@ if (inputNum != null)
 }
 
 // Весь код в одну строчку:
-Console.WriteLine((int)Math.Pow(int.Parse(inputNum), 2));
+// Console.WriteLine((int)Math.Pow(int.Parse(inputNum), 2));
