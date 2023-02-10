@@ -17,4 +17,3 @@ if(numLine1 != null && numLine2 != null)
         Console.WriteLine("Первое число - не квадрат второго!");
     }
 }
-elsesdad
