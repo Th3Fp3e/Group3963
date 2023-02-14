@@ -1,30 +1,13 @@
-﻿// Задача №12
-// Напишите программу, которая будет принимать на вход два числа и выводить, 
-// является ли второе число кратным первому. 
-// Если второе число некратно первому, то программа выводит остаток от деления.
+﻿// Задача №11
+// Напишите программу, которая выводит случайное трёхзначное число 
+// и удаляет вторую цифру этого числа.
 
-Console.Write("Введите первое число: ");
-int firstNum = int.Parse(Console.ReadLine()??"0");
-Console.Write("Введите второе число: ");
-int secondNum = int.Parse(Console.ReadLine()??"0");
+int num = new Random().Next(100, 1000);
+Console.WriteLine("Случайное число - " + num);
 
-if (firstNum % secondNum == 0)
-{
-    Console.WriteLine(secondNum + " кратно " + firstNum);
+int lastDigit = num % 10;
+int firstDigit = num / 100;
 
-}
-else
-{
-    Console.WriteLine("Остаток от деления = " + (firstNum % secondNum));
-}
+num = firstDigit * 10 + lastDigit;
 
-// Либо:
-// int rem = firstNum % secondNum;
-// if (rem == 0)
-// {
-//     Console.WriteLine("Кратно!");
-// }
-// else
-// {
-//     Console.WriteLine(rem);
-// }
+Console.WriteLine("Результат работы - " + num);

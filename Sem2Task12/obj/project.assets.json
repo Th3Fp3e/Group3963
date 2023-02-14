@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Seminar 1\\Group3963\\Sem2Task10\\Sem2Task10.csproj",
-      "projectName": "Sem2Task10",
-      "projectPath": "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Seminar 1\\Group3963\\Sem2Task10\\Sem2Task10.csproj",
+      "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Seminar 1\\Group3963\\Sem2Task11\\Sem2Task11.csproj",
+      "projectName": "Sem2Task11",
+      "projectPath": "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Seminar 1\\Group3963\\Sem2Task11\\Sem2Task11.csproj",
       "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Seminar 1\\Group3963\\Sem2Task10\\obj\\",
+      "outputPath": "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Seminar 1\\Group3963\\Sem2Task11\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config"
