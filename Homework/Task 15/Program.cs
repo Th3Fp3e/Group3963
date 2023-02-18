@@ -9,6 +9,8 @@
 Console.Write("Введите число от 1 до 7: ");
 int weekDay = int.Parse(Console.ReadLine()??"0");
 
+
+// Создадим функцию выявления выходного дня
 bool IsItWeekend(int num)
 {
     if (num > 5)
@@ -18,7 +20,7 @@ bool IsItWeekend(int num)
     return false;
 }
 
-if (weekDay > 0 && weekDay <= 7)
+if (weekDay > 0 && weekDay <= 7) // Проверяемб подпадает ли число под дни недели
 {
     if (IsItWeekend(weekDay))
     {
@@ -31,6 +33,6 @@ if (weekDay > 0 && weekDay <= 7)
 }
 else
 {
-    Console.WriteLine("Повторюсь, от 1 до 7!");
+    Console.WriteLine("Повторюсь, от 1 до 7!"); // Шутка для тех, кто ввел число неправильно
 }
 

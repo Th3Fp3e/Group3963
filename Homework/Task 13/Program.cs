@@ -2,8 +2,9 @@
 // Напишите программу, которая выводит третью цифру заданного числа 
 // или сообщает, что третьей цифры нет.
 
-Console.WriteLine("Введите ваше число: ");
+// Решение через string и char:
 
+// Console.WriteLine("Введите ваше число: ");
 // string? num = Console.ReadLine();
 
 // char[] arr = num.ToCharArray();
@@ -18,9 +19,11 @@ Console.WriteLine("Введите ваше число: ");
 //     Console.WriteLine($"В числе {num} нет третьей цифры");
 // }
 
+// Решение (*): 
+// Создадим функцию поиска третьей цифры вне зависимости от длины числа 
 int GetThirdDigit(int input)
 {
-    while (input > 999)
+    while (input > 999) // Приводим число к трехзначному, постепенно сокращая разряды 
     {
         input = input / 10;
     }
@@ -29,7 +32,7 @@ int GetThirdDigit(int input)
 
 int num = int.Parse(Console.ReadLine() ?? "0");
 
-if (num >= 100)
+if (num >= 100)  // Проверяем, что у числа больше 2 цифр
 {
     int digit = GetThirdDigit(num);
     Console.WriteLine($"{digit} - третья цифра числа {num}");
