@@ -1,0 +1,15 @@
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\obj\Debug\net6.0\Task 10.csproj.AssemblyReference.cache
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\obj\Debug\net6.0\Task 10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\obj\Debug\net6.0\Task 10.AssemblyInfoInputs.cache
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\obj\Debug\net6.0\Task 10.AssemblyInfo.cs
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\obj\Debug\net6.0\Task 10.csproj.CoreCompileInputs.cache
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\bin\Debug\net6.0\Task 10.exe
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\bin\Debug\net6.0\Task 10.deps.json
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\bin\Debug\net6.0\Task 10.runtimeconfig.json
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\bin\Debug\net6.0\Task 10.dll
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\bin\Debug\net6.0\Task 10.pdb
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\obj\Debug\net6.0\Task 10.dll
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\obj\Debug\net6.0\refint\Task 10.dll
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\obj\Debug\net6.0\Task 10.pdb
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\obj\Debug\net6.0\Task 10.genruntimeconfig.cache
+C:\Users\Nikita\Desktop\GeekBrains stuff\Введение в языки\C#\Seminars\Group3963\Homework\Task 10\obj\Debug\net6.0\ref\Task 10.dll
