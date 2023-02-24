@@ -3,7 +3,7 @@
 // Напишите программу, которая принимает на вход координаты двух точек 
 // и находит расстояние между ними в 3D пространстве.
  
-int ReadData (string msg)  // The ol' reliable methods for reading and printing data...
+int ReadData (string msg) 
 {
     Console.WriteLine(msg);
     return int.Parse(Console.ReadLine()??"0");
@@ -27,6 +27,6 @@ int x2 = ReadData("Enter the x-coordinate of point B: ");  //     for both point
 int y2 = ReadData("Enter the y-coordinate of point B: ");  //
 int z2 = ReadData("Enter the z-coordinate of point B: ");  //
  
-double res = CalcDist(x1, x2, y1, y2, z1, z2);
+double res = CalcDist(x1, x2, y1, y2, z1, z2); // Getting the distance in 3D space
  
 PrintData("The distance between points A and B in 3D environment: ", res);
