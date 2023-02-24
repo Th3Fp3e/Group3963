@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Group3963\\Sem4Task19\\Sem4Task19.csproj": {}
+    "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Group3963\\Homework\\Task 19\\Task 19.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Group3963\\Sem4Task19\\Sem4Task19.csproj": {
+    "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Group3963\\Homework\\Task 19\\Task 19.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Group3963\\Sem4Task19\\Sem4Task19.csproj",
-        "projectName": "Sem4Task19",
-        "projectPath": "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Group3963\\Sem4Task19\\Sem4Task19.csproj",
+        "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Group3963\\Homework\\Task 19\\Task 19.csproj",
+        "projectName": "Task 19",
+        "projectPath": "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Group3963\\Homework\\Task 19\\Task 19.csproj",
         "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Group3963\\Sem4Task19\\obj\\",
+        "outputPath": "C:\\Users\\Nikita\\Desktop\\GeekBrains stuff\\Введение в языки\\C#\\Seminars\\Group3963\\Homework\\Task 19\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config"
