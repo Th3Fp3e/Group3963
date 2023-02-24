@@ -22,5 +22,5 @@ int ReadData(string message)
 
 int n = ReadData("Enter your value: ");
 
-Console.WriteLine(PowBuilder(n, 1));
-Console.WriteLine(PowBuilder(n, 3));
+Console.WriteLine(PowBuilder(n, 1));  // Writing a line to showcase the un-powered numbers from 1 to n
+Console.WriteLine(PowBuilder(n, 3));  // Getting a line that powers said numbers by 3
