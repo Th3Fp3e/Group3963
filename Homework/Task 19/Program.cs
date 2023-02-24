@@ -47,12 +47,16 @@ bool IsItInThere(int input, Dictionary<int, int> palindromes)
 }
 
 Dictionary<int, int> palindromes = DictionaryFill();
-int value = ReadData("Enter a 5-digit number: "); // Entering our value
+int value = ReadData("Enter a 5-digit number: "); 
 
-if (value >= 10000 && value <= 99999)  // We need to make sure that out value is indeed a 5-digit number...
+
+// We need to make sure that out value is indeed a 5-digit number...
+if (value >= 10000 && value <= 99999)  
 {
-    bool result = IsItInThere(value, palindromes); // Checking the value for its palindromeness...
-    if (result)                       // ...and using the result to esteblish the output.
+    // Checking the value for its palindromeness...
+    bool result = IsItInThere(value, palindromes); 
+    // ...and using the result to establish the output.
+    if (result)                       
     {
         PrintData(value, " is a palindrome!");
     }
@@ -63,5 +67,6 @@ if (value >= 10000 && value <= 99999)  // We need to make sure that out value is
 }
 else
 {
-    Console.WriteLine("Your number is invalid. It should be more than 9999 and less than 10000. Try again.");  // ...because if it is not, we need to tell the user so!
+    // ...because if it is not, we need to tell the user so!
+    Console.WriteLine("Your number is invalid. It should be more than 9999 and less than 10000. Try again.");  
 }
