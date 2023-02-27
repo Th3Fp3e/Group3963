@@ -28,4 +28,18 @@ int SumOfDigits (int num)
 
 int input = ReadData("Enter yor value: ");
 // Shortening the code a bit here by putting the calculations directly into the output
-PrintData($"The sum of digits of your value {input} equals to {SumOfDigits(input)}");
+// PrintData($"The sum of digits of your value {input} equals to {SumOfDigits(input)}");
+
+// *Сделать оценку времени алгоритма через числа и строки
+
+// Let's add a little timer to our output here...
+DateTime check1 = DateTime.Now;
+PrintData($"The sum of digits of your value {input} equals to {SumOfDigits(input)} (calculations in the output message)");
+Console.WriteLine(DateTime.Now - check1);
+
+// ...and make a little change to the code to see if it affects the time to finish it!
+DateTime check2 = DateTime.Now;
+int result = SumOfDigits(input);
+PrintData($"The sum of digits of your value {input} equals to {result} (calculations outside the output message)");
+Console.WriteLine(DateTime.Now - check2);
+
