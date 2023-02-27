@@ -4,7 +4,7 @@
 
 int ReadData(string message)
 {
-    Console.WriteLine(message);
+    Console.Write(message);
     return int.Parse(Console.ReadLine() ?? "0");
 }
 // Nothing unusual about those two
