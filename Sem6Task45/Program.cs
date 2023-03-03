@@ -22,7 +22,7 @@ void PrintArray(int[] array)
     Console.WriteLine($"{array[array.Length - 1]}]");  
 }
 
-object[] CopyArray (params object[] inputArr)
+object[] CopyArray(params object[] inputArr)
 {
     object[] outArr = new int[inputArr.Length];
     
