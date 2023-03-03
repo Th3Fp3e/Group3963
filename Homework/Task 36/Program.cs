@@ -44,7 +44,7 @@ int OddIndexSum(int[] arr)
     return res;
 }
 
-// And a method for odd ELEMENTS
+// And a method for ELEMENTS, ODD BY COUNT
 int OddElementSum(int[] arr)
 {
     int res = 0;
