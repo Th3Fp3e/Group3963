@@ -24,6 +24,8 @@ int ReadData(string message)
 //     return arr;
 // }
 
+
+// Starting with a mathod for calculating the Fibonacci number of N count without using recursion
 long FiboNum(int n)
 {
     long res = 1;
@@ -39,6 +41,7 @@ long FiboNum(int n)
     return res;
 }
 
+// Now we'll construct a matrix with elements being the Fibonacci sequence
 long[,] Gen2DFiboArray(int rows, int col)
 {
     long[,] arr = new long[rows, col];
@@ -66,15 +69,17 @@ void Print2DArr(long[,] arr)
     }
 }
 
+// A simple bool method to check if there is an element by specific row and column within the matrix
 bool IsItThere(long[,] arr, int row, int col)
 {
     if (row-1 < arr.GetLength(0) && col-1<arr.GetLength(1)) return true;
     else return false;
 }
 
+// And a method for printing a specific element of the matrix
 void Print2DArrayElem(long[,] arr, int row, int col)
 {
-    Console.WriteLine($"Your element is {arr[row-1, col-1]}");
+    Console.WriteLine($"Your element is {arr[row-1, col-1]}"); // We're subtracting 1 from the input "row" and "col" since index always start with 0
 }
 
 long[,] testArr = Gen2DFiboArray (6, 8);

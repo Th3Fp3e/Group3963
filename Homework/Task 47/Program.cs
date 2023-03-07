@@ -23,6 +23,7 @@ int[,] Gen2DArray (int rows, int col, int max)
 
 void Print2DArr(int[,] arr)
 {
+    // We're using the specific command to create a pool of colors to paint the printed symbols
     ConsoleColor[] col = new ConsoleColor[]{ConsoleColor.Black,ConsoleColor.Blue,ConsoleColor.Cyan,
                                         ConsoleColor.DarkBlue,ConsoleColor.DarkCyan,ConsoleColor.DarkGray,
                                         ConsoleColor.DarkGreen,ConsoleColor.DarkMagenta,ConsoleColor.DarkRed,
@@ -34,9 +35,9 @@ void Print2DArr(int[,] arr)
     {
         for (int j = 0; j < arr.GetLength(1); j++)
         {
-            Console.ForegroundColor = col[new Random().Next(0,16)];
+            Console.ForegroundColor = col[new Random().Next(0,16)]; // This will allow the programm to chose from set colors randomly
             Console.Write(arr[i, j] + " ");
-            Console.ResetColor();
+            Console.ResetColor(); // And this will reset the color scheme after each print
         }
         Console.WriteLine();
     }

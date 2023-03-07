@@ -33,12 +33,14 @@ void Print2DArr(int[,] arr)
     }
 }
 
+// With this method we'll calculate the mean number for each column
 double CalcColMean(int[,] arr, int col)
 {
     double sum = 0;
     int count = 0;
     for(int i = 0; i < arr.GetLength(0); i++)
     {
+        // There's no need to change columns, since we're calculating one column per method
         sum += arr[i, col];
         count++;
     }
@@ -51,6 +53,7 @@ int[,] testArr = Gen2DArray(inRow, inCol, 10, 100);
 Print2DArr(testArr);
 Console.WriteLine();
 
+// Simce our method only calculates one result per column, we'll make a cycle that goes through all columns in the matrix
 for (int j = 0; j < testArr.GetLength(1); j++)
 {
     double res = CalcColMean(testArr, j);
