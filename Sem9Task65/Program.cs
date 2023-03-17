@@ -31,7 +31,12 @@ void PrintData(string msg)
 int m = ReadData("Enter your first number: ");
 int n = ReadData("Enetr your second number: ");
 
-if (m < n) string result = RecMN(m, n);
-else string result = RecMN(n, m);
 
-PrintData(result);
+if (m < n) 
+{
+    PrintData(RecMN(m, n));
+}
+else 
+{
+    PrintData(RecMN(n, m));
+}
